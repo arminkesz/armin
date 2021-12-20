@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>settings</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #3c3c3c;
+        }
+        .aa {
+            border: black solid 2px;
+            border-radius: 25px;
+            margin-top: 50px;
+            margin-left: 650px;
+            background-color: black;
+            height: 900px;
+            width: 600px;
+        }
+        .bb {
+            color: white;
+            margin-left: 240px;
+            font-family:'Raleway', sans-serif;;
+        }
+        .cc {
+            border-color: white solid 2px;
+            background-color: black;
+            border-radius: 50px;
+        }
+        input[type=text], select {
+            margin-left: 60px;
+            margin-top: 50px;
+            width: 200px;
+            height: 50px;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .dd {
+            color: white;
+            margin-left: 80px;
+            font-family:'Bakbak One';
+        }
+        .ee {
+            border: #3c3c3c solid 2px;
+            border-radius: 25px;
+            background-color: #3c3c3c;
+            height: 200px;
+            width: 300px;
+            margin-left: 150px;
+        }
+    </style>
+    <button class="cc"><a href="index.html"><i class="material-icons"style="font-size:30px; color:white;">arrow_back_ios</i></a></button>
+    <div class="aa">
+        <h1 class="bb">Settings</h1>
+        <div class="ee">
+            <h1 class="dd">languages</h1>
+            <label for="languages"></label>
+            <select id="languages" name="languages">
+                <option id="bb"></option>
+                <option id="cc"></option>
+            </select>
+        </div>
+    </div>
+        <div class="">
+            <h1 class="">languages</h1>
+            <label for="languages"></label>
+            <select id="languages" name="languages">
+                <option id="aa" value="german"></option>
+                <option value="hungarian">black</option>
+            </select>
+        </div>
+    <script>
+        var aa = ('white')
+        document.getElementById ("aa").innerHTML = ("white");
+        document.getElementById ("bb").innerHTML = ("german");
+        document.getElementById ("cc").innerHTML = ("hungarian");
+        document.getElementById ("dd").innerHTML = ("black");
+    </script>
+</body>
+</html>
